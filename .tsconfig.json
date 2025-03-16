@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "strict": true,
+        "module": "CommonJS",
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": true,
+        "allowUmdGlobalAccess": true,
+        "noImplicitThis": true,
+        "noImplicitOverride": true,
+        "strictBindCallApply": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true
+    },
+    "files": [
+        "./app/server/routes.ts",
+        "./app/server/server.ts",
+        "./app/src/components/Footer.ts",
+        "./app/src/components/NavBar.ts",
+        "./app/src/pages/AboutMe.ts",
+        "./app/src/pages/Album.ts",
+        "./app/src/pages/Home.ts",
+        "./app/src/pages/Pricing.ts",
+        "./app/src/pages/Session.ts"
+    ]
+}
