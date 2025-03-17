@@ -1,8 +1,8 @@
 import "./pages/Home";
-import "./pages/AboutPage";
+import "./pages/About";
 import "./pages/Pricing";
 
-const loadPage = (path: string) => {
+const loadPage = (path: string): void => {
     let pageComponent: string = "";
 
     switch (path) {
@@ -12,8 +12,15 @@ const loadPage = (path: string) => {
         case "/pricing":
             pageComponent = /* HTML */ `<pricing-page></pricing-page>`;
             break;
+        case "/albums":
+            pageComponent = /* HTML */ `<albums-page></albums-page>`;
+            break;
+        case "/contact":
+            pageComponent = /* HTML */ `<contact-page></contact-page>`;
+            break;
         default:
             pageComponent = /* HTML */ `<home-page></home-page>`;
+            break;
     }
 
     document.body.innerHTML = /* HTML */ `<k-navbar></k-navbar> ${pageComponent}`;

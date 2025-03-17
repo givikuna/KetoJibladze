@@ -3,7 +3,7 @@ import { html, css, LitElement, TemplateResult } from "lit";
 import "../components/NavBar";
 
 class Home extends LitElement {
-    static styles = css`
+    static override styles = css`
         :host {
             display: block;
             padding: 20px;
@@ -11,10 +11,11 @@ class Home extends LitElement {
         }
     `;
 
-    render(): TemplateResult<1> {
+    override render(): TemplateResult<1> {
         return html`
             <k-navbar></k-navbar>
             <main>
+                <br />
                 <h1>Hai</h1>
             </main>
         `;

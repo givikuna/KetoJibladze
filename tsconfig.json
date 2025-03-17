@@ -24,15 +24,7 @@
         "noFallthroughCasesInSwitch": true,
         "resolveJsonModule": true
     },
-    "files": [
-        "./app/server/routes.ts",
-        "./app/server/server.ts",
-        "./app/src/components/Footer.ts",
-        "./app/src/components/NavBar.ts",
-        "./app/src/pages/AboutMe.ts",
-        "./app/src/pages/Album.ts",
-        "./app/src/pages/Home.ts",
-        "./app/src/pages/Pricing.ts",
-        "./app/src/pages/Session.ts"
+    "include": [
+        "app/**/*.ts"
     ]
 }
